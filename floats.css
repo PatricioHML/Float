@@ -1,0 +1,129 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  margin-bottom: 20px;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  background: #ccc;
+
+
+}
+
+section {
+  padding: 20px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  width: 26;
+}
+
+#left {
+  padding: 20px 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  background: #666;
+  float:left ;
+  width: 33.33%;
+}
+
+#middle {
+  padding: 20px 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  background: #888;
+  float:left ;
+  width: 33.33%;
+
+}
+
+#right {
+  padding: 20px 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  background: #666;
+  float:left ;
+  width: 33.33%;
+
+}
+
+#full {
+  padding: 50px 0;
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: black;
+  background: #eee;
+  float:left;
+  width: 100%;
+    
+}
+
+#division {
+  background: #6ea3da;
+  padding-bottom: 50px;
+  padding: 30px
+
+
+
+ 
+}
+
+aside {
+  padding: 20px 0;
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: black;
+  background: #fff;
+  float:left ;
+  border: 3px solid #fff;
+  width: 33.33%;
+  padding-bottom: 150px
+}
+
+footer {
+  padding: 20px 0;
+  margin-top: 100px 0;
+  margin-right: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50 px;
+  color: black;
+  background: #ccc;
+  float:bottom;
+  width: 100%;
+
+}
